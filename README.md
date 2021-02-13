@@ -3,7 +3,7 @@ Implement Right Threaded BST and convert to AVL Tree.
 
 compile RtBst and run: 
 1. g++ -o RtBst.exe RtBst.cpp
-2. ./.exe
+2. ./RtBst.exe.exe
 
 compile RtAvlTree and Run:
 1. g++ -o RtAvlTree.exe RtBst.cpp
