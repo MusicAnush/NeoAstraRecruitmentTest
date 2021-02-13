@@ -184,5 +184,6 @@ int main()
 		cout << "Do you want to continue(enter y or Y to continue)?" << endl;
 		cin >> ch;
 	} while (ch == 'Y' || ch == 'y');
+	delete Elem<int, int>::_root;
 	return 0;
 }
