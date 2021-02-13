@@ -3,9 +3,9 @@
 
 /*
 Written By : R. Anush Narayanan.
-Date: feb-12th-2021.
+Date: feb-13th-2021.
 Content : This file contains the methods for inserting a node(Key and Value Pair) into a
-right-threaded binary search tree(BST), printing the nodes at a level
+right-threaded binary search tree(BST) and convert it into AVL tree by performing LL, RR, LR, RL rotations, printing the nodes at a level
 'i' of the (BST) and de-allocating the nodes created.
 */
 #include"pch.h"
@@ -307,5 +307,7 @@ int main()
 		cout << "Do you want to continue(enter y or Y to continue)?" << endl;
 		cin >> ch;
 	} while (ch == 'Y' || ch == 'y');
+	
+	delete Elem<int, int>::_root;
 	return 0;
 }
